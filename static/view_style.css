@@ -1,0 +1,84 @@
+/* StyleSheet for ViewHash */
+
+.container {
+    padding-top: 100px;
+}
+
+p {
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+.table-nav ul li a {
+    color: black;
+}
+
+.table-nav-links:active, .table-nav-links:hover {
+    background-color: #1b9bff;
+    transition: .5s;
+}
+
+
+center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.table-nav {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 140px;
+    background-color: #f2f2f2; 
+    border-width:  1px 10px 10px
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin-left: 150px;
+    font-size: 0.9em;
+    min-width: 400px;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.table {
+    column-count:2;
+    -moz-column-count:2;
+    -webkit-column-count:2;
+}
+
+
+.content-table td {
+    padding: 12px 15px;
+}
+
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
